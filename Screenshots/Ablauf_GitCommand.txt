@@ -1,0 +1,28 @@
+cd documents
+git clone https://github.com/ArneSchueler/SWT_DVC_Project.git
+cd SWT_DVC_Project
+git pull
+git status
+
+Create Documents folder and Test.txt file
+
+git add Documents/Test.txt
+git status
+git commit Documents/Test.txt -m "created Documents folder and added Test.txt"
+git push
+
+Text was added in the Test.txt file
+
+git status
+git diff
+git add Documents/Test.txt
+git status
+git commit Documents/Test.txt -m "added text to Test.txt"
+git push
+
+Create Screenshotfolder and add Screenshots
+
+git status
+git add Screenshots/*
+git status
+git commit -m "added Screenshot Folder and Screenshots of PowerShell with Git Commands"
