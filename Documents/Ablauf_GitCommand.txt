@@ -26,3 +26,15 @@ git status
 git add Screenshots/*
 git status
 git commit -m "added Screenshot Folder and Screenshots of PowerShell with Git Commands"
+git status
+git add Documents/OldScreenshot
+git commit -m "added OldScreenshot to Documents"
+git add Screenshots/Ablauf_GitCommand.txt
+git status
+git commit -m "added Ablauf_GitCommand to Screenshots"
+
+git mv Screenshots/Ablauf_GitCommand.txt Documents/
+git diff
+git status
+git commit -m "moved Ablauf_GitCommand from Screenshots to Documents folder"
+git rm Documents/OldScreenshot.bmp
